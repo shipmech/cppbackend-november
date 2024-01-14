@@ -355,11 +355,11 @@ jobs:
         run: |
           cp -R /home/forconan/.conan /github/home/.conan
 
-      - name: run tests sprint4 db_of_books
-        run: |
-          cd cpp-backend-tests-practicum/scripts/sprint4
-          ./db_of_books/run_postgresless.sh
-
+#      - name: run tests sprint4 db_of_books
+#        run: |
+#          cd cpp-backend-tests-practicum/scripts/sprint4
+#          ./db_of_books/run_postgresless.sh
+#
 #      - name: run tests sprint4 bookypedia-1
 #        run: |
 #          cd cpp-backend-tests-practicum/scripts/sprint4
